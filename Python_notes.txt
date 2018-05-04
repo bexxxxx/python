@@ -1,6 +1,6 @@
 documents / OnlineCourses / Python
 #!python2 at top of file
-
+______________________________________________________
 PART 2
 CTRL-C interrupts programs
 import time
@@ -33,3 +33,13 @@ Individual instances of the Turtle will contain information about their
 sizes and their colors.
 
 calling function webbrowser.open() vs calling init when turtle.Turtle()
+_______________________________________________________
+PART 4
+twilio is an external python package
+
+from is a python keyword meaning you can import specific attributes form a
+module
+
+inside of twilio is a folder called rest, inside rest is a python file
+which has a class called TwilioRestClient()
+when we access the class we are calling a function init defined inside that class
