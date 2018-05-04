@@ -31,3 +31,5 @@ the class Turtle. Our instance was called brad.
 the class Turtle indicates the fact that it has a size and a color.
 Individual instances of the Turtle will contain information about their
 sizes and their colors.
+
+calling function webbrowser.open() vs calling init when turtle.Turtle()
