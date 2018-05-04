@@ -3,9 +3,12 @@ documents / OnlineCourses / Python
 
 PART 2
 CTRL-C interrupts programs
+import time
 ctime() current time
 time.sleep()
+import webbrowser
 webbrowser.open()
+import os
 os.listdir() get you everything thats in a directory
 os.rename
 string.translate(table, list of characters to remove)
@@ -19,3 +22,12 @@ add functions
 write code one line at a time
 ______________________________________________________
 PART 3
+import turtle
+turtle is a file within python. Inside the file is the class Turtle.
+classes allow us to write turtle.Turtle(). We are calling a function called
+init when we run this code. init creates space in memory for a new object of
+the class Turtle. Our instance was called brad.
+
+the class Turtle indicates the fact that it has a size and a color.
+Individual instances of the Turtle will contain information about their
+sizes and their colors.
