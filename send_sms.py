@@ -10,8 +10,8 @@ auth_token  = "find via site"
 client = Client(account_sid, auth_token)
 
 message = client.api.account.messages.create(
-    to="+18457507037", 
-    from_="+15185201324",
-    body="Hello from Python, bitch!!!!")
+    to="+1", 
+    from_="+1,
+    body="Hello from Python")
 
 print(message.sid)
