@@ -1,2 +1,21 @@
 documents / OnlineCourses / Python
+#!python2 at top of file
+
+PART 2
 CTRL-C interrupts programs
+ctime() current time
+time.sleep()
+webbrowser.open()
+os.listdir() get you everything thats in a directory
+os.rename
+string.translate(table, list of characters to remove)
+os.cwd current working directory
+os.chdir change directory
+
+Hiding of detail behind documentation = ABSTRACTION
+
+create empty python file
+add functions
+write code one line at a time
+______________________________________________________
+PART 3
