@@ -43,3 +43,18 @@ module
 inside of twilio is a folder called rest, inside rest is a python file
 which has a class called TwilioRestClient()
 when we access the class we are calling a function init defined inside that class
+
+______________________________________________________
+PART 5
+reading text from a document
+open a file --> file = open("file location")
+content = file.read() to read the file
+print(content)
+file.close()
+
+open is a function is built in function  -- no need to import
+open returns an object of the file type
+
+urllib is a module/file in python helps us get information from the internet,
+has to be imported
+urlopen is a function 
