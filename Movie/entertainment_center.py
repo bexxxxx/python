@@ -34,4 +34,8 @@ shrek_halloween = media.Movie("Scared Shrekless", "An ogre and his friends tell 
                               "https://www.youtube.com/watch?v=ZIbHKKXz-BE")
 
 movies = [shrek, shrek_2, shrek_3, shrek_4, shrek_musical, shrek_xmas, shrek_halloween]                        
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)

@@ -77,3 +77,26 @@ instance called Toy Story
  instance variables -- unique to each instance of class Movie
  instance method -- a function that is defined inside a class and is
  associated with an instance
+ ______________________________________________________
+ PART 7
+Class variable: When the variable will be the same for all instances
+print(media.Movie.VALID_RATINGS) --> all instances can share this list
+VALID_RATINGS = ["G", "PG", "PG-13", "R"]--> this is a constant, bc value wont change so we use uppercase
+
+All classes come w some preexisting class variables
+doc --> gives us documentation on the class turtle.Turtle.__doc__
+""" triple quotes for creating documentation in class
+__name__
+__module__
+
+inheritance-->
+class Parent
+  last_name
+  eye_color
+class Child(Parent):
+  ""
+  ""
+  number_toys
+
+Method Overriding--> defined method by same name in Child class AND Parent classes
+so, subclass child overrides method in parent class 
