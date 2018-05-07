@@ -57,4 +57,23 @@ open returns an object of the file type
 
 urllib is a module/file in python helps us get information from the internet,
 has to be imported
-urlopen is a function 
+urlopen is a function
+______________________________________________________
+PART 6
+
+class names should start with Uppercase
+class defined in one file, use your class in another file
+class = blueprint; can have data AND methods
+instances of a class are examples like shrek
+
+media is a file, inside, we made a class called Movie, then we created an
+instance called Toy Story
+
+ def __init__(self):
+ self -- he instance we create, this created by default in python (self not a keyword but is standard language)
+  self = shrek
+  movie_title = "Shrek"
+
+ instance variables -- unique to each instance of class Movie
+ instance method -- a function that is defined inside a class and is
+ associated with an instance
